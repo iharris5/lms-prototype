@@ -47,7 +47,10 @@ Powered by Cohere's large language models (`command-a-03-2025`), the LMS uses na
 
 2. Configure your API key:
 
-    In `config/api.php`, replace the placeholder with your Cohere API key:
+    Copy the example config file and add your Cohere API key:
+        cp config/api.example.php config/api.php
+    
+    Then open config/api.php and replace 'your-api-key-here' with your actual API key:
 
     ```php
     define('COHERE_API_KEY', 'your-api-key-here');
