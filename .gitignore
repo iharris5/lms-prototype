@@ -1,0 +1,12 @@
+# Ignore API keys and config files
+config/api.php
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+tmp/
+temp/
+
